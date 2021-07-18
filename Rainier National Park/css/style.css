@@ -1,0 +1,475 @@
+@charset "utf-8";
+/* CSS Document */
+
+html body {
+	background-color: #fefbf4;
+}
+
+/* ---- MISC ----*/
+
+.tm-100 {
+	margin-top: 100px;
+}
+
+.mr-30 {
+	margin-right: 30px;
+}
+
+.DS {
+	filter: drop-shadow(0 0 0.75rem black);
+}
+
+.BotBor {
+	border-bottom: medium solid #264653;
+}
+
+/* ----- Nav ----- */
+
+.navbar-default {
+    background: none;
+}
+
+.bg-img {
+  background-image: url("../images/Banner_Photo.jpg");
+  min-height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.Nav-fluid {
+	margin: auto;
+	width: 1280px;
+	padding-top: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #e9c46a;
+	font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-item a:hover {
+	color: #264653;
+	transition: .3s ease-in;
+}
+
+#navbarNav {
+	margin-bottom: 100px;
+}
+
+.NonIndexNav {
+	height: 125px;
+	padding-top: 0;
+}
+
+.NonIndexNav .Nav-fluid {
+	height: 125px;
+	padding-top: 0;
+}
+
+.NonIndexNavMenu {
+	padding-top: 100px;
+}
+
+/* Banners */
+
+#minorBanner {
+	color: white;
+	font-size: 114px;
+	text-align: center;
+	margin-top: 200px;
+}
+
+#majorBanner {
+	color: white;
+	font-size: 200px;
+	text-align: center;
+	margin-top: -100px;
+}
+
+.Titlebg {
+	margin-top: 300px;
+	color: #fefbf4;
+}
+
+.TitleGrad {
+	background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(38,70,83,0) 100%);
+}
+
+h2 {
+	text-align: center;
+	color: #264653;
+	padding: 40px 0;
+}
+
+h5 {
+	color: #2a9d8f;
+}
+
+h4 {
+	color: #264653;
+}
+
+footer {
+	background-color: #264653
+}
+
+footer p {
+	color: white;
+	margin: 0;
+}
+
+footer h6 {
+	color: white;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+.PlacesImage {
+	background-image: url("../images/Placestogo2.jpg");
+	background-repeat: no-repeat;
+	transition: .3s ease-out;
+}
+
+.PlacesImage:hover {
+	background-image: url("../images/Muted/PlacestogoMuted.jpg");
+	transition: .3s ease-in;
+}
+
+.HoursImage {
+	background-image: url("../images/Hours.jpg");
+	background-repeat: no-repeat;
+	transition: .3s ease-out;
+}
+
+.HoursImage:hover {
+	background-image: url("../images/Muted/HoursMuted.jpg");
+	transition: .3s ease-in;
+}
+
+.PassesImage {
+	background-image: url("../images/Passes.jpg");
+	background-repeat: no-repeat;
+	transition: .3s ease-out;
+}
+
+.PassesImage:hover {
+	background-image: url("../images/Muted/PassesMuted.jpg");
+	transition: .3s ease-in;
+}
+
+.TriHeaderL {
+	padding-top: 447px;
+	padding-left: 20px;
+}
+
+.TriHeaderS {
+	padding-top: 200px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+.pictureLink {
+	color: white;
+	font-size: 25px;
+}
+
+.pictureLinkColor {
+	text-decoration: none;
+	color: white;
+}
+
+.pictureLinkColor:hover {
+	color: white;
+}
+
+.FullWidthHeader {
+	padding-top: 410px;
+	padding-left: 20px;
+}
+
+.FishingImg {
+	background-image: url("../images/Fishing and Boating.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: .3s ease-out;
+	height: 450px;
+}
+
+.FishingImg:hover {
+	background-image: url("../images/Muted/Fishing and BoatingMuted.jpg");
+	transition: .3s ease-in;
+}
+
+.ClimbingImg {
+	background-image: url("../images/climbing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: .3s ease-out;
+	height: 450px;
+}
+
+.ClimbingImg:hover {
+	background-image: url("../images/Muted/climbingMuted.jpg");
+	transition: .3s ease-in;
+}
+
+.CampingImg {
+	background-image: url("../images/Camping.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: .3s ease-out;
+	height: 450px;
+}
+
+.CampingImg:hover {
+	background-image: url("../images/Muted/CampingMuted.jpg");
+	transition: .3s ease-in;
+}
+
+.WinterImg {
+	background-image: url("../images/Winter Rec.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+}
+
+.WinterImg:hover {
+	background-image: url("../images/Muted/Winter RecMuted.jpg");
+	transition: .3s ease-in;
+}
+
+.BikeImg {
+	background-image: url("../images/Bycicling.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: .3s ease-out;
+	height: 450px;
+}
+
+.BikeImg:hover {
+	background-image: url("../images/Muted/ByciclingMuted.jpg");
+	transition: .3s ease-in;
+}
+
+.HikingImg {
+	background-image: url("../images/Hiking.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: .3s ease-out;
+	height: 450px;
+}
+
+.HikingImg:hover {
+	background-image: url("../images/Muted/HikingMuted.jpg");
+	transition: .3s ease-in;
+}
+
+.NewsImg {
+	background-image: url("../images/News.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: .3s ease-out;
+}
+
+.NewsImg:hover {
+	background-image: url("../images/Muted/NewsMuted.jpg");
+	transition: .3s ease-in;
+}
+
+.LearnImg {
+	background-image: url("../images/Learn.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: .3s ease-out;
+}
+
+.LearnImg:hover {
+	background-image: url("../images/Muted/LearnMuted.jpg");
+	transition: .3s ease-in;
+}
+
+.VolunteerImg {
+	background-image: url("../images/Volunteer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: .3s ease-out;
+}
+
+.VolunteerImg:hover {
+	background-image: url("../images/Muted/VolunteerMuted.jpg");
+	transition: .3s ease-in;
+}
+
+.BlockHeader {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 220px;
+}
+.BlockHeaderLearn {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 198px;
+}
+
+.BlockText {
+	color: white;
+	padding: 0 75px 45px 75px;
+	font-weight: 700;
+}
+
+/* Gallery */
+
+.gal-bg-img {
+  	background-image: url("../images/gal-bg-img.jpg");
+ 	height: 590px;
+  	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size:cover;
+}
+
+.gallery {
+	width: 1280px;
+	margin: auto;
+	padding-bottom: 0;
+}
+
+.topGal {
+	margin-top: 50px;
+}
+
+.galleryTitle {
+	padding-bottom: 20px;
+}
+
+.galNav {
+	text-decoration: none;
+	color: #264653;
+}
+
+.galNav:hover {
+	color: #e76f51;
+	border-bottom: thick solid #264653;
+}
+
+.galNavPos {
+	padding-top: 20px;
+}
+
+/* About US*/
+.About-bg-img {
+	background-image: url("../images/AboutUS2.jpg");
+}
+
+.HistoryImg {
+	background-image: url("../images/history.jpg");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+}
+
+.bodyText {
+	padding-left: 30px;
+	font-weight: 500;
+	line-height: 2;
+}
+
+.bodyTextL{
+	padding-right: 30px;
+	font-weight: 500;
+	line-height: 2;
+}
+
+.BrandLink1 {
+	transition: .3s ease-out;
+	text-decoration: none;
+	color: #2a9d8f;
+	padding: 0 5px;
+	border-bottom: thick solid #264653;
+}
+
+.BrandLink2 {
+	text-decoration: none;
+	color: #264653;
+	padding: 0 5px 3px;
+	border-bottom: thick solid #e76f51;
+}
+
+.BrandLink1:hover {
+	color: #e76f51;
+	border-left: medium solid #264653;
+	border-right: medium solid #264653;
+	border-top: thin solid #264653;
+	transition: .3s ease-in;
+}
+
+.lm-30 {
+	margin-left: 30px;
+}
+
+.ArchImg {
+	background-image: url("../images/archeology.jpg");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+}
+
+.ArchivesImg {
+	background-image: url("../images/archives.jpg");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 400px;
+	background-size: cover;
+}
+
+.YellowCard {
+	background-color: hsla(43,74%,66%,0.50);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
